@@ -8,7 +8,7 @@ def vehicle_details(vehicle_number, owner_name, vehicle_type, year):
     return result
 
 
-if _name_ == "_main_":
+if __name__ == "__main__":
     vehicle_number = "101"
     owner_name = "Rohit"
     vehicle_type = "Car"
